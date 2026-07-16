@@ -1,4 +1,4 @@
-import { a as i } from "chunk-HMF7T2NG.mjs";
+import { a as i } from "./chunk-HMF7T2NG.mjs";
 function t(e) {
   return !e?.endsWith(i().previewDomain);
 }

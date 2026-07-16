@@ -1,4 +1,4 @@
-import { a as e } from "chunk-HMF7T2NG.mjs";
+import { a as e } from "./chunk-HMF7T2NG.mjs";
 var r = `${e().api}/web/built-in-fonts`,
   i = typeof fetch < "u" ? fetch : () => Promise.reject("fetch is not available");
 async function g() {

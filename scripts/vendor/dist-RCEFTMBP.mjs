@@ -1,6 +1,6 @@
-import { a, b, c, d, e, f, g, h } from "chunk-J5DVQA32.mjs";
-import "chunk-KYPY4QS7.mjs";
-import "chunk-CT63CFX7.mjs";
+import { a, b, c, d, e, f, g, h } from "./chunk-J5DVQA32.mjs";
+import "./chunk-KYPY4QS7.mjs";
+import "./chunk-CT63CFX7.mjs";
 export {
   a as closeHistory,
   b as history,

@@ -12,7 +12,7 @@ import {
   s as c,
   u as T,
   v as g,
-} from "chunk-3SWZZEDP.mjs";
+} from "./chunk-3SWZZEDP.mjs";
 var C = "framer_",
   l = "editSite";
 var { createPortal: F } = w("react-dom");
@@ -319,7 +319,7 @@ function ue({ framerSiteId: e, features: t, iframeRef: o, className: i }) {
 }
 var v;
 function ce({ shouldLoad: e, ...t }) {
-  e && (v ??= import("EditButton-PATLXWP6.mjs"));
+  e && (v ??= import("./EditButton-PATLXWP6.mjs"));
   let [o, i] = c(null);
   return (
     u(() => {

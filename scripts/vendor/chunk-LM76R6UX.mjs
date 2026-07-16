@@ -1,6 +1,6 @@
-import { Xa as i } from "chunk-H6ES2254.mjs";
-import { Pn as r, eo as c } from "chunk-AHICRW35.mjs";
-import { h as l } from "chunk-DYNCKUFC.mjs";
+import { Xa as i } from "./chunk-H6ES2254.mjs";
+import { Pn as r, eo as c } from "./chunk-AHICRW35.mjs";
+import { h as l } from "./chunk-DYNCKUFC.mjs";
 function v(o, e, n) {
   o.scheduler.process(() => {
     let s = o.tree.root.locales?.map((u) => u.id) ?? [],

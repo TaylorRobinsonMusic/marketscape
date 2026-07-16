@@ -1,4 +1,4 @@
-import { e as r } from "chunk-DYNCKUFC.mjs";
+import { e as r } from "./chunk-DYNCKUFC.mjs";
 function n(o) {
   return o === 2 || o === 0;
 }

@@ -14,7 +14,7 @@ import {
   u as V,
   v as b,
   w as $,
-} from "chunk-KYPY4QS7.mjs";
+} from "./chunk-KYPY4QS7.mjs";
 var J = (e, t) => (e.selection.empty ? !1 : (t && t(e.tr.deleteSelection().scrollIntoView()), !0));
 function _(e, t) {
   let { $cursor: n } = e.selection;

@@ -24,11 +24,11 @@ import {
   w,
   x,
   y,
-} from "chunk-HS2BOIJR.mjs";
-import "chunk-FIJLBKPU.mjs";
-import "chunk-6C6VSETA.mjs";
-import "chunk-KYPY4QS7.mjs";
-import "chunk-CT63CFX7.mjs";
+} from "./chunk-HS2BOIJR.mjs";
+import "./chunk-FIJLBKPU.mjs";
+import "./chunk-6C6VSETA.mjs";
+import "./chunk-KYPY4QS7.mjs";
+import "./chunk-CT63CFX7.mjs";
 export {
   b as ChangeReason,
   r as DEFAULT_SUGGESTER,

@@ -1,7 +1,7 @@
-import { a as c } from "chunk-6VQPURR3.mjs";
-import { a as n } from "chunk-2F5FSM3K.mjs";
-import { a } from "chunk-HMF7T2NG.mjs";
-import "chunk-CT63CFX7.mjs";
+import { a as c } from "./chunk-6VQPURR3.mjs";
+import { a as n } from "./chunk-2F5FSM3K.mjs";
+import { a } from "./chunk-HMF7T2NG.mjs";
+import "./chunk-CT63CFX7.mjs";
 var f = "--";
 function l(e) {
   return (e.split(".")[0] || "").includes(f) && e.endsWith(a().previewDomain);
@@ -79,7 +79,7 @@ async function h() {
       t.data.projectFeatures &&
       (window.framerProjectFeatures = t.data.projectFeatures),
     await Promise.all([w(), b()]));
-  let { renderEditorBar: m } = await import("render-4D42JOJX.mjs");
+  let { renderEditorBar: m } = await import("./render-4D42JOJX.mjs");
   await m(t, r);
 }
 h().catch(console.error);

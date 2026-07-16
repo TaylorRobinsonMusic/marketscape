@@ -1,5 +1,5 @@
-import { p as v, y as C } from "chunk-KYPY4QS7.mjs";
-import "chunk-CT63CFX7.mjs";
+import { p as v, y as C } from "./chunk-KYPY4QS7.mjs";
+import "./chunk-CT63CFX7.mjs";
 function V(g = {}) {
   return new C({
     view(e) {

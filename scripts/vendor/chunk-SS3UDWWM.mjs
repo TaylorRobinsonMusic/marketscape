@@ -1,4 +1,4 @@
-import { a, f as d } from "chunk-DB6FQNZV.mjs";
+import { a, f as d } from "./chunk-DB6FQNZV.mjs";
 var {
     onewayMethodTemplate: T,
     voidMethodTemplate: _,

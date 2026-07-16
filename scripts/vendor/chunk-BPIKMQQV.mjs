@@ -1,4 +1,4 @@
-import { b as t } from "chunk-5D5WEAJK.mjs";
+import { b as t } from "./chunk-5D5WEAJK.mjs";
 function a(e) {
   return t.post("/web/access-requests", e);
 }

@@ -8,7 +8,7 @@ import {
   m as C,
   n as k,
   s as A,
-} from "chunk-KYPY4QS7.mjs";
+} from "./chunk-KYPY4QS7.mjs";
 var S = ["ol", 0],
   R = ["ul", 0],
   v = ["li", 0],

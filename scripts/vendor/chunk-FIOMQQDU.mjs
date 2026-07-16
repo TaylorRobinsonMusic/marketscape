@@ -1,4 +1,4 @@
-import { b as e, c as n } from "chunk-QMHHZUFP.mjs";
+import { b as e, c as n } from "./chunk-QMHHZUFP.mjs";
 var a = new n("sandbox", {
   sandbox: new e(),
   controlsVisibility: new e(),

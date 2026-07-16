@@ -1,4 +1,4 @@
-import { h as A, y as x, z as C } from "chunk-KYPY4QS7.mjs";
+import { h as A, y as x, z as C } from "./chunk-KYPY4QS7.mjs";
 var y = 200,
   u = function () {};
 u.prototype.append = function (e) {

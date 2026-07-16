@@ -5986,7 +5986,7 @@ async function ta({ routeId: e, pathVariables: t, localeId: r, collectionItemId:
                         },
                         "react-dom": { createPortal: m },
                       };
-                      let { createEditorBar: e } = await import(`init.mjs`);
+                      let { createEditorBar: e } = await import(`./init.mjs`);
                       return { default: e() };
                     });
                   })(),

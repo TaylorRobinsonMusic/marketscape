@@ -1,4 +1,4 @@
-import { b as r } from "chunk-DYNCKUFC.mjs";
+import { b as r } from "./chunk-DYNCKUFC.mjs";
 var p = null,
   g = "i-invalid",
   o = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",

@@ -13,7 +13,7 @@ import {
   t as D,
   v as T,
   w as ee,
-} from "chunk-3SWZZEDP.mjs";
+} from "./chunk-3SWZZEDP.mjs";
 var un = Object.freeze([]);
 var we,
   Te = !1;

@@ -1,4 +1,4 @@
-import { j as o } from "chunk-GX2Q2FIZ.mjs";
+import { j as o } from "./chunk-GX2Q2FIZ.mjs";
 function r(t) {
   return o.isAutomation ? t : `/s/app.3f060d600d260eabc1be91bd81957be1f97f0852/${t}`;
 }

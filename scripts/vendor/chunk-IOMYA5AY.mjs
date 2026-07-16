@@ -1,6 +1,6 @@
-import { n as P } from "chunk-DYNCKUFC.mjs";
-import { d as D, e as M, ia as E, x as F } from "chunk-V7MLU2WL.mjs";
-import { a as y } from "chunk-425IX65M.mjs";
+import { n as P } from "./chunk-DYNCKUFC.mjs";
+import { d as D, e as M, ia as E, x as F } from "./chunk-V7MLU2WL.mjs";
+import { a as y } from "./chunk-425IX65M.mjs";
 var I = "clipboard-copy";
 async function j(t) {
   if (navigator.clipboard)

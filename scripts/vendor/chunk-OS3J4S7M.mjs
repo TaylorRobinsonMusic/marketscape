@@ -1,4 +1,4 @@
-import { b as t } from "chunk-425IX65M.mjs";
+import { b as t } from "./chunk-425IX65M.mjs";
 function s(e) {
   switch (e) {
     case 2:

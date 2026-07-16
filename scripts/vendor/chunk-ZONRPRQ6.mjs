@@ -1,4 +1,4 @@
-import { d as f } from "chunk-S4WAQ3AT.mjs";
+import { d as f } from "./chunk-S4WAQ3AT.mjs";
 var E = /[.!?…]+$/u;
 function x(t) {
   return t.replace(E, "");

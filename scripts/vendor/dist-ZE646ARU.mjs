@@ -1,6 +1,6 @@
-import { a, b, c, d, e, f, g, h, i, j, k, l } from "chunk-EDICM4ZE.mjs";
-import "chunk-KYPY4QS7.mjs";
-import "chunk-CT63CFX7.mjs";
+import { a, b, c, d, e, f, g, h, i, j, k, l } from "./chunk-EDICM4ZE.mjs";
+import "./chunk-KYPY4QS7.mjs";
+import "./chunk-CT63CFX7.mjs";
 export {
   a as InputRule,
   g as closeDoubleQuote,

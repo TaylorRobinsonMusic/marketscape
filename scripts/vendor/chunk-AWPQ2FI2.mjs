@@ -1,4 +1,4 @@
-import { a as n, i as o, j as i, k as m } from "chunk-CFUM4JW5.mjs";
+import { a as n, i as o, j as i, k as m } from "./chunk-CFUM4JW5.mjs";
 var a = Object.fromEntries(Object.keys(n).map((e) => [e, "off"])),
   r = new o(a);
 r.update(l());

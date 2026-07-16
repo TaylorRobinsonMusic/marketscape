@@ -1,4 +1,4 @@
-import { c as P } from "chunk-CT63CFX7.mjs";
+import { c as P } from "./chunk-CT63CFX7.mjs";
 var A = P((r) => {
   "use strict";
   var t = typeof Symbol == "function" && Symbol.for,

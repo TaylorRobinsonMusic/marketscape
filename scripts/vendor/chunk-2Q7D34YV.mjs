@@ -1,4 +1,4 @@
-import { a as u } from "chunk-425IX65M.mjs";
+import { a as u } from "./chunk-425IX65M.mjs";
 var i = "main",
   d = "branches",
   x = "baseId";

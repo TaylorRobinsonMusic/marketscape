@@ -1,5 +1,5 @@
-import { ia as T } from "chunk-V7MLU2WL.mjs";
-import { j as t } from "chunk-CT63CFX7.mjs";
+import { ia as T } from "./chunk-V7MLU2WL.mjs";
+import { j as t } from "./chunk-CT63CFX7.mjs";
 var v;
 ((e) => (e.log = T("\u{1F4A9} fallback-logger-please-reassign:services")))((v ||= {}));
 ((a) => {

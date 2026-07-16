@@ -28,9 +28,9 @@ import {
   x,
   y,
   z,
-} from "chunk-MTT6DWBN.mjs";
-import "chunk-KYPY4QS7.mjs";
-import "chunk-CT63CFX7.mjs";
+} from "./chunk-MTT6DWBN.mjs";
+import "./chunk-KYPY4QS7.mjs";
+import "./chunk-CT63CFX7.mjs";
 export {
   y as autoJoin,
   C as baseKeymap,

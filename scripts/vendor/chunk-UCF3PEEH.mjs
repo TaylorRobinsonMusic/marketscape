@@ -1,5 +1,5 @@
-import { a as i } from "chunk-PCOAFXVS.mjs";
-import { c as n } from "chunk-CT63CFX7.mjs";
+import { a as i } from "./chunk-PCOAFXVS.mjs";
+import { c as n } from "./chunk-CT63CFX7.mjs";
 var a = n((t) => {
   "use strict";
   var e = i();

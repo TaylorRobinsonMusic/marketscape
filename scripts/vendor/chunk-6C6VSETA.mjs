@@ -9,7 +9,7 @@ import {
   u as C,
   v as D,
   w as St,
-} from "chunk-KYPY4QS7.mjs";
+} from "./chunk-KYPY4QS7.mjs";
 var S = function (t) {
     for (var e = 0; ; e++) if (((t = t.previousSibling), !t)) return e;
   },

@@ -1,5 +1,5 @@
-import { b as r } from "chunk-MF7AZATJ.mjs";
-import { b as e } from "chunk-425IX65M.mjs";
+import { b as r } from "./chunk-MF7AZATJ.mjs";
+import { b as e } from "./chunk-425IX65M.mjs";
 function n(a) {
   let t = r();
   switch (a) {

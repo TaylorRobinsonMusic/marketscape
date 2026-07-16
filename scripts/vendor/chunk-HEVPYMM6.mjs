@@ -1,4 +1,4 @@
-import { dh as a } from "chunk-PBNCD2KE.mjs";
+import { dh as a } from "./chunk-PBNCD2KE.mjs";
 var [l, e] = a(3);
 function d(r) {
   return new Promise((o) => {

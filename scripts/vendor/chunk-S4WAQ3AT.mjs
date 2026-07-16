@@ -1,5 +1,5 @@
-import { f as u, g as f } from "chunk-BL7YLPCC.mjs";
-import { j as m } from "chunk-CT63CFX7.mjs";
+import { f as u, g as f } from "./chunk-BL7YLPCC.mjs";
+import { j as m } from "./chunk-CT63CFX7.mjs";
 var d = class extends Error {
   constructor(e) {
     let t = "Failed to upload";

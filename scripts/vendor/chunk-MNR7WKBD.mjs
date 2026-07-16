@@ -1,4 +1,4 @@
-import { h as t, l as o } from "chunk-GX2Q2FIZ.mjs";
+import { h as t, l as o } from "./chunk-GX2Q2FIZ.mjs";
 var r = "https://ec6f39c7d6654defa8ab3d67acd9f94f@o20425.ingest.sentry.io/1860728",
   p = r.split("/").pop() ?? "";
 var i = 0.1;

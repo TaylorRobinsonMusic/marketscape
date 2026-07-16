@@ -1,4 +1,4 @@
-import { a as n } from "chunk-HMF7T2NG.mjs";
+import { a as n } from "./chunk-HMF7T2NG.mjs";
 async function c() {
   try {
     return await navigator.permissions.query({ name: "storage-access" });
