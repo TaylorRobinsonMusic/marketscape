@@ -1,0 +1,32 @@
+import { t as e } from "./rolldown-runtime.BB3S47xo.mjs";
+import { n as t, t as n } from "./shared-lib.CQP05-fP.mjs";
+function r(e, n) {
+  return {
+    breakpoints: [
+      { hash: `19kcmfp`, mediaQuery: `(min-width: 1200px)` },
+      { hash: `awgh9q`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
+      { hash: `4hjnjp`, mediaQuery: `(max-width: 809.98px)` },
+    ],
+    description: t(e, n).description,
+    elements: { EK08Qvqdt: `jobs` },
+    robots: `max-image-preview:large`,
+    serializationId: `framer-jwTrI`,
+    title: t(e, n).title || `Careers`,
+    viewport: `width=device-width`,
+  };
+}
+var i,
+  a,
+  o = e(() => {
+    (n(),
+      (i = 1),
+      (a = {
+        exports: {
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          __FramerMetadata__: { type: `variable` },
+        },
+      }));
+  });
+export { i, o as n, r, a as t };
+//# sourceMappingURL=JFNr7AzSy.KDRCCnND.mjs.map

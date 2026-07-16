@@ -1,0 +1,32 @@
+import { t as e } from "./rolldown-runtime.BB3S47xo.mjs";
+import { n as t, t as n } from "./shared-lib.CQP05-fP.mjs";
+function r(e, n) {
+  return {
+    breakpoints: [
+      { hash: `1chx7yg`, mediaQuery: `(min-width: 1200px)` },
+      { hash: `1ykrwx5`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
+      { hash: `incvt1`, mediaQuery: `(max-width: 809.98px)` },
+    ],
+    description: t(e, n).description,
+    elements: { tZXUF60fM: `Book A Call` },
+    robots: `max-image-preview:large`,
+    serializationId: `framer-Da2do`,
+    title: t(e, n).title || `Contact`,
+    viewport: `width=device-width`,
+  };
+}
+var i,
+  a,
+  o = e(() => {
+    (n(),
+      (i = 1),
+      (a = {
+        exports: {
+          default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          __FramerMetadata__: { type: `variable` },
+        },
+      }));
+  });
+export { i, o as n, r, a as t };
+//# sourceMappingURL=jL2GUUASB.BQhwr7zY.mjs.map
