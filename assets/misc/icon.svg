@@ -65,7 +65,7 @@
 <path d="M15.4874 12.9913V10.9145C15.4874 10.569 15.6247 10.2376 15.869 9.99328L17.8658 7.99648C18.0818 7.78048 18.3748 7.65913 18.6802 7.65913H18.7162C18.9986 7.65913 19.2695 7.77134 19.4693 7.97107C19.669 8.17081 19.7812 8.4417 19.7812 8.72417V15.1816C19.7812 15.4641 19.669 15.735 19.4693 15.9347C19.2695 16.1345 18.9986 16.2467 18.7162 16.2467H18.6802C18.3748 16.2467 18.0818 16.1253 17.8658 15.9093L15.869 13.9125C15.6247 13.6682 15.4874 13.3368 15.4874 12.9913Z" fill="url(#paint3_linear_10423_610363)"/>
 </g>
 </g>
-<rect x="0.0703125" y="0.0703125" width="23.8594" height="23.8594" rx="5.36719" stroke="#EDE9FE" stroke-opacity="0.25" stroke-width="0.140625"/>
+<rect x="0.0703125" y="0.0703125" width="23.8594" height="23.8594" rx="5.36719" stroke="#ebebeb" stroke-opacity="0.25" stroke-width="0.140625"/>
 <defs>
 <filter id="filter0_dd_10423_610363" x="3.22988" y="6.5625" width="12.5471" height="11.6363" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -107,8 +107,8 @@
 <feBlend mode="normal" in2="shape" result="effect3_innerShadow_10423_610363"/>
 </filter>
 <linearGradient id="paint0_linear_10423_610363" x1="12" y1="0" x2="12" y2="28.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2E3440"/>
-<stop offset="1" stop-color="#13161C"/>
+<stop stop-color="#343434"/>
+<stop offset="1" stop-color="#161616"/>
 </linearGradient>
 <linearGradient id="paint1_linear_10423_610363" x1="7.03128" y1="19.0969" x2="-2.87927" y2="37.8905" gradientUnits="userSpaceOnUse">
 <stop stop-color="#D9D9D9" stop-opacity="0"/>
@@ -116,11 +116,11 @@
 </linearGradient>
 <linearGradient id="paint2_linear_10423_610363" x1="9.50339" y1="7.21875" x2="9.50339" y2="16.7605" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
-<stop offset="1" stop-color="#E8EDF0"/>
+<stop offset="1" stop-color="#ececec"/>
 </linearGradient>
 <linearGradient id="paint3_linear_10423_610363" x1="17.6343" y1="7.65913" x2="17.6343" y2="16.2467" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
-<stop offset="1" stop-color="#E8EDF0"/>
+<stop offset="1" stop-color="#ececec"/>
 </linearGradient>
 <clipPath id="clip0_10423_610363">
 <rect width="24" height="24" rx="5.4375" fill="white"/>
