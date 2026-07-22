@@ -54,6 +54,22 @@ contact.html form  ──POST (JSON)──▶  Apps Script Web App  ──append
    If you set a `SHARED_TOKEN` in step 4, paste the same string into `TOKEN`.
    Commit and push — GitHub Pages will publish the change.
 
+## Test email notifications first (no spreadsheet needed)
+
+If you want to confirm the email notifications work before creating the sheet,
+use [`EmailOnly.gs`](./EmailOnly.gs) instead of `Code.gs`:
+
+1. Go to <https://script.google.com> → **New project**.
+2. Paste in the contents of `EmailOnly.gs` and save.
+3. **Instant test:** in the toolbar function dropdown pick `sendTestEmail`,
+   click **Run**, approve the mail permission → check your inbox.
+4. **Live test (optional):** **Deploy → New deployment → Web app**
+   (*Execute as: Me*, *Who has access: Anyone*), copy the `/exec` URL, paste it
+   into `CONTACT_FORM_ENDPOINT` in `contact.html`, and submit the form.
+
+When you're ready to also log rows to a sheet, switch to `Code.gs` — the email
+recipient and body are identical, so nothing else changes.
+
 ## Updating the script later
 
 If you edit `Code.gs`, you must **re-deploy** for changes to go live:
