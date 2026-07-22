@@ -70,9 +70,14 @@ This keeps the same `/exec` URL, so you don't need to touch `contact.html` again
 - **Spam protection:** The form includes hidden honeypot fields; if any are
   filled (bots do this), the submission is silently ignored. The optional
   `SHARED_TOKEN` adds a second layer.
-- **Email notifications:** Want an email each time someone submits? In the
-  Google Sheet: **Tools → Notification settings → Notify me when… any changes
-  are made**, or add a `MailApp.sendEmail(...)` call inside `doPost` in `Code.gs`.
+- **Email notifications:** On by default — you get an email for every
+  submission, with the sender's email set as the reply-to so you can reply
+  directly. By default it goes to the Google account that owns/deploys the
+  script; to send it elsewhere (or to a comma-separated list), set
+  `NOTIFY_EMAIL` at the top of `Code.gs`. To turn notifications off, set
+  `NOTIFY_ENABLED = false`. (The first submission after enabling will ask you
+  to re-authorize, since sending mail is a new permission — re-deploy per the
+  "Updating the script" section if prompted.)
 - **CORS:** The browser posts with `Content-Type: text/plain` and `mode:
   'no-cors'`, which is the standard, preflight-free way to reach an Apps Script
   Web App from a static site. The response is opaque to the page, so the form

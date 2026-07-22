@@ -21,6 +21,13 @@ var SHARED_TOKEN = '';
 // if it does not already exist.
 var SHEET_NAME = 'Contact Submissions';
 
+// Email notifications: an email is sent for each new submission.
+// Leave NOTIFY_EMAIL empty ('') to send to the account that owns this
+// script, or set it to a specific address (or comma-separated list).
+// Set NOTIFY_ENABLED to false to turn notifications off entirely.
+var NOTIFY_ENABLED = true;
+var NOTIFY_EMAIL = '';
+
 var HEADERS = [
   'Timestamp',
   'First Name',
@@ -58,6 +65,8 @@ function doPost(e) {
       data.page || ''
     ]);
 
+    notify(data);
+
     return json({ result: 'success' });
   } catch (err) {
     return json({ result: 'error', message: String(err) });
@@ -80,6 +89,34 @@ function parseBody(e) {
     }
   }
   return (e && e.parameter) ? e.parameter : {};
+}
+
+function notify(data) {
+  if (!NOTIFY_ENABLED) return;
+  try {
+    var to = NOTIFY_EMAIL || Session.getEffectiveUser().getEmail();
+    if (!to) return;
+
+    var name = ((data.firstName || '') + ' ' + (data.lastName || '')).trim();
+    var subject = 'New contact form submission' + (name ? ' from ' + name : '');
+    var lines = [
+      'Name:    ' + (name || '(not provided)'),
+      'Email:   ' + (data.email || '(not provided)'),
+      'Phone:   ' + (data.phone || '(not provided)'),
+      'Page:    ' + (data.page || '(not provided)'),
+      '',
+      'Message:',
+      data.message || '(no message)'
+    ];
+
+    var options = {};
+    if (data.email && /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(data.email)) {
+      options.replyTo = data.email;
+    }
+    MailApp.sendEmail(to, subject, lines.join('\n'), options);
+  } catch (err) {
+    // Never let a notification failure block saving the submission.
+  }
 }
 
 function getSheet() {
