@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service — Marketscape</title>
+<meta name="description" content="Terms of Service for the Marketscape Off-Market M&A Research Retainer. Payment constitutes acceptance.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fdfdfd;
+    --ink:#0a0a0a;
+    --ink-2:#545454;
+    --ink-3:#8a8a8a;
+    --line:#e6e6e6;
+    --line-2:#d8d8d8;
+    --card:#f6f6f6;
+    --serif:"Instrument Serif",Georgia,serif;
+    --sans:"Inter","Google Sans Flex Variable",-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:"Fragment Mono",ui-monospace,"SF Mono",Menlo,monospace;
+    --maxw:760px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:16px;
+    line-height:1.7;
+    letter-spacing:.1px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+
+  /* ---------- top bar ---------- */
+  .nav{
+    position:sticky;top:0;z-index:20;
+    background:rgba(253,253,253,.86);
+    backdrop-filter:saturate(140%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:1120px;margin:0 auto;
+    padding:16px 28px;
+    display:flex;align-items:center;justify-content:space-between;gap:24px;
+  }
+  .wordmark{
+    font-family:var(--sans);font-weight:600;font-size:18px;letter-spacing:-.2px;
+    text-decoration:none;color:var(--ink);
+  }
+  .wordmark .dot{color:var(--ink-3)}
+  .nav-links{display:flex;align-items:center;gap:26px}
+  .nav-links a{
+    font-size:13px;color:var(--ink-2);text-decoration:none;letter-spacing:.2px;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{
+    font-family:var(--mono);font-size:12px;letter-spacing:.3px;
+    border:1px solid var(--line-2);border-radius:2px;
+    padding:8px 14px;color:var(--ink)!important;
+  }
+  .nav-cta:hover{background:var(--ink);color:var(--bg)!important;border-color:var(--ink)}
+  @media(max-width:719px){ .nav-links a:not(.nav-cta){display:none} .nav-inner{padding:14px 20px} }
+
+  /* ---------- header block ---------- */
+  header.doc{
+    max-width:var(--maxw);margin:0 auto;
+    padding:76px 28px 40px;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:var(--mono);font-size:12px;letter-spacing:.6px;
+    color:var(--ink-3);text-transform:uppercase;margin:0 0 22px;
+  }
+  header.doc h1{
+    font-family:var(--serif);font-weight:400;
+    font-size:clamp(38px,6vw,58px);line-height:1.04;letter-spacing:-.5px;
+    margin:0 0 18px;
+  }
+  header.doc .lede{
+    font-size:16px;color:var(--ink-2);max-width:60ch;margin:0;
+  }
+  .accept-flag{
+    display:inline-block;margin-top:26px;
+    font-family:var(--mono);font-size:12.5px;letter-spacing:.3px;
+    color:var(--ink);background:var(--card);
+    border:1px solid var(--line-2);border-radius:2px;
+    padding:9px 14px;
+  }
+  .accept-flag b{font-weight:500}
+
+  /* ---------- body ---------- */
+  main{max-width:var(--maxw);margin:0 auto;padding:8px 28px 40px}
+  section.clause{padding:38px 0;border-bottom:1px solid var(--line)}
+  section.clause:last-of-type{border-bottom:none}
+  .clause-head{display:flex;gap:16px;align-items:baseline;margin:0 0 16px}
+  .clause-num{
+    font-family:var(--mono);font-size:13px;color:var(--ink-3);
+    letter-spacing:.5px;flex:none;padding-top:3px;
+  }
+  .clause h2{
+    font-family:var(--sans);font-weight:600;
+    font-size:15px;letter-spacing:.6px;text-transform:uppercase;
+    margin:0;line-height:1.35;
+  }
+  .clause p{margin:0 0 15px;color:#1c1c1c}
+  .clause p:last-child{margin-bottom:0}
+  .clause .body{padding-left:0}
+  @media(min-width:720px){ .clause .body{padding-left:47px} }
+
+  /* ---------- footer ---------- */
+  footer.site{
+    border-top:1px solid var(--line);
+    background:var(--bg);
+    margin-top:20px;
+  }
+  .foot-inner{
+    max-width:1120px;margin:0 auto;padding:56px 28px 40px;
+    display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;
+  }
+  .foot-brand .wordmark{font-size:20px}
+  .foot-brand p{color:var(--ink-2);font-size:13.5px;max-width:34ch;margin:14px 0 0}
+  .foot-col h4{
+    font-family:var(--mono);font-size:11px;letter-spacing:.8px;text-transform:uppercase;
+    color:var(--ink-3);margin:0 0 16px;font-weight:400;
+  }
+  .foot-col a{
+    display:block;text-decoration:none;color:var(--ink-2);
+    font-size:13.5px;margin-bottom:10px;transition:color .15s ease;
+  }
+  .foot-col a:hover{color:var(--ink)}
+  .foot-col a .b{color:var(--ink-3)}
+  .foot-bottom{
+    max-width:1120px;margin:0 auto;padding:22px 28px 44px;
+    border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    font-size:12px;color:var(--ink-3);font-family:var(--mono);letter-spacing:.3px;
+  }
+  @media(max-width:719px){
+    .foot-inner{grid-template-columns:1fr 1fr;gap:28px}
+    .foot-brand{grid-column:1 / -1}
+    header.doc{padding-top:52px}
+  }
+</style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="wordmark" href="index.html">Marketscape<span class="dot">.</span></a>
+      <div class="nav-links">
+        <a href="index.html#the-solution">How it works</a>
+        <a href="index.html#the-edge">The edge</a>
+        <a href="index.html#pricing">Engagements</a>
+        <a class="nav-cta" href="index.html#request-access">Request access</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="doc">
+    <p class="eyebrow">Marketscape Off-Market M&amp;A Research Retainer</p>
+    <h1>Terms of Service</h1>
+    <p class="lede">These terms govern the monthly research retainer between MarketScape LLC and the purchasing entity. Please read them in full.</p>
+    <span class="accept-flag"><b>Payment constitutes acceptance.</b></span>
+  </header>
+
+  <main>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 01 ]</span><h2>What You Are Buying</h2></div>
+      <div class="body">
+        <p>This payment establishes a monthly research retainer between MarketScape LLC, a Delaware limited liability company operating marketscape.co (&ldquo;MarketScape&rdquo;), and the purchasing entity (&ldquo;Client&rdquo;). MarketScape provides off-market M&amp;A intelligence: it identifies privately held companies showing early indicators of owner willingness to transact, contacts owners on Client&rsquo;s behalf as a research firm, performs preliminary interest and fit vetting, and hands off qualified candidates. The retainer is $3,000 per month, billed in advance, with a three-month minimum committed term and month-to-month renewal thereafter.</p>
+        <p>The scope below corresponds to MarketScape&rsquo;s Signal Pro service level, published at $5,000 per month; the $3,000 rate is a specifically negotiated rate reflecting the minimum commitment and early-client status, is unique to this engagement, is not MarketScape&rsquo;s standard rate, and is subject to repricing on 60 days&rsquo; notice after the first twelve months.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 02 ]</span><h2>Deal Box and Onboarding</h2></div>
+      <div class="body">
+        <p>Within 10 business days of payment, MarketScape and Client will hold a kickoff session to define written acquisition criteria (the &ldquo;Deal Box&rdquo;): industry and NAICS codes, geography, revenue and earnings ranges, headcount, ownership structure, preferred signals, hard disqualifiers, and the monthly research and outreach volumes MarketScape commits to. The Deal Box governs all work performed and is the reference point for MarketScape&rsquo;s delivery obligations. Client may adjust it at any time.</p>
+        <p>Changes within the same industry and geography are implemented within 10 business days. A materially different thesis, meaning a new vertical, a new geography, or a new size band, is set up as an additional deal box by written agreement. All market maps and reports produced under the Deal Box, including reports rebuilt for a new or revised thesis, are included in the retainer at no additional charge. Kickoff also establishes approved outreach messaging, channels, and disclosure positioning.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 03 ]</span><h2>Market Reports</h2></div>
+      <div class="body">
+        <p>MarketScape delivers a monthly market report containing companies matching the Deal Box with core firmographics, the specific signals detected for each (succession and generational indicators, owner tenure, burnout indicators, life and liquidity events, financial and lien activity, litigation and filing activity), a fit score and ranking against the Deal Box with the basis stated, identified decision-maker contacts where lawfully available, and written commentary on market movement and recommended prioritization.</p>
+        <p>Each report covers the full mapped universe inside the Deal Box and is refreshed monthly with newly researched companies, at the monthly volume and universe size committed in the Deal Box.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 04 ]</span><h2>Outreach</h2></div>
+      <div class="body">
+        <p>MarketScape conducts research outreach to prioritized owners and decision-makers using messaging Client approves in advance, across approved channels only, at the monthly contact volume and follow-up cadence committed in the Deal Box. MarketScape identifies itself as a research firm acting for a buy-side client and does not misrepresent its role or purpose. Client&rsquo;s identity is disclosed only at the stage the parties agree at kickoff.</p>
+        <p>Outreach stops immediately on any opt-out or request to stop, and opt-outs are suppressed permanently across all channels. MarketScape does not negotiate price or terms, does not solicit or convey offers, and has no authority to bind Client.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 05 ]</span><h2>Vetting and Handoff</h2></div>
+      <div class="body">
+        <p>For each owner who responds with willingness to discuss a transaction, MarketScape confirms ownership and decision authority, records the owner&rsquo;s stated motivation, timing, and expectations, collects self-reported financial indicators to test fit against the Deal Box, checks Deal Box disqualifiers, and runs a basic public-record and sanctions screen. Qualified candidates are delivered as a written dossier with an introduction within 3 business days of the owner&rsquo;s consent.</p>
+        <p>This is a fit-and-interest screen based on public records and owner self-reporting. It is not due diligence, not a quality of earnings review, not an audit, and not a valuation, and MarketScape does not verify what an owner reports. All diligence, verification, valuation, and investment decisions are Client&rsquo;s sole responsibility.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 06 ]</span><h2>Meetings</h2></div>
+      <div class="body">
+        <p>MarketScape holds a working session with Client once every two weeks, up to 60 minutes, by video, covering pipeline, outreach results, handoffs, and thesis adjustments. MarketScape is additionally available for ad hoc calls and written consultation on live candidates and time-sensitive questions, up to 4 hours per calendar month in aggregate, with response inside one business day on a commercially reasonable basis.</p>
+        <p>Time beyond the monthly allowance is billed at MarketScape&rsquo;s published hourly rate in 15-minute increments, and only after MarketScape notifies Client the allowance is exhausted and Client approves the overage in writing. Neither party records any call with the other, or with an owner, without the consent of all participants.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 07 ]</span><h2>What Is Expressly Excluded</h2></div>
+      <div class="body">
+        <p>MarketScape is engaged for research, identification, contact, and preliminary assessment for a fixed monthly fee. MarketScape will not effect or negotiate the purchase or sale of any business, securities, or assets; will not solicit, receive, or transmit offers or letters of intent; will not advise on valuation, structure, or the merits of a transaction; will not hold funds or securities; and will not receive any commission, success fee, finder&rsquo;s fee, tail fee, or any compensation contingent on the closing, size, or terms of any transaction.</p>
+        <p>MarketScape provides no legal, tax, accounting, audit, valuation, investment advisory, or broker-dealer services, is not a licensed business broker or broker-dealer, and Client is not relying on it as one. Nothing outside paragraphs 2 through 6 or a purchased add-on is in scope.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 08 ]</span><h2>Fees, Billing, and Add-Ons</h2></div>
+      <div class="body">
+        <p>The retainer is charged monthly in advance on the subscription date, with the first charge covering the first month of the committed term. Fees exclude sales, use, and similar taxes, which are Client&rsquo;s responsibility. MarketScape bears its own data, tooling, and staffing costs; pass-through expenses specific to Client&rsquo;s thesis (paid record retrievals, third-party data purchases, direct mail, travel) are reimbursed at cost only with prior written approval, and any single expense over $250 or aggregate monthly expenses over $500 require separate approval. Research reports are never charged separately.</p>
+        <p>Optional add-ons are available by written change order and include outreach volume expansion, additional user seats, contact enrichment and verification, CRM and API integration, ownership and cap structure research, outreach channel expansion, warm-path network mapping, nurture and re-engagement of prior &ldquo;not now&rdquo; owners, owner interviews and extended dossiers, financial pre-screens, weekly working sessions in place of biweekly, category exclusivity, and thesis design workshops.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 09 ]</span><h2>Term, Cancellation, and Performance</h2></div>
+      <div class="body">
+        <p>Either party may cancel at any time, for any reason or no reason, on 30 days&rsquo; written notice, but cancellation for convenience does not take effect before the last day of the three-month committed term, and Client remains responsible for the retainer through that term and through any notice period. Both parties continue performing during the notice period. Either party may terminate immediately for material breach uncured after 10 business days&rsquo; written notice (5 business days for non-payment) or on insolvency.</p>
+        <p>If MarketScape delivers less than 80% of the monthly volumes committed in the Deal Box in any month, and the shortfall is not caused by Client delay or force majeure, Client may elect a make-up in the following month or a prorated credit; two consecutive misses, or three in any rolling six months, let Client terminate on 15 days&rsquo; notice notwithstanding the committed term. Prepaid fees covering any period after the effective date of termination are refunded prorata.</p>
+        <p>On termination MarketScape delivers all work product produced to date in CSV and PDF, including the current target list, contact records, per-company outreach status, and all dossiers, plus a list of companies under active outreach.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 10 ]</span><h2>Confidentiality, Data, IP, Liability, and Acceptance</h2></div>
+      <div class="body">
+        <p>Each party protects the other&rsquo;s confidential information, including Client&rsquo;s Deal Box, strategy, and pipeline, and MarketScape&rsquo;s data sources and scoring models; information that a specific owner has expressed interest is confidential to both parties indefinitely. Signal data and firmographics come from public and third-party sources with multi-source confidence scoring, and no specific data point is warranted accurate, complete, or current.</p>
+        <p>MarketScape retains its platform, data, and models; on payment Client receives a perpetual, irrevocable, worldwide license to use, modify, and internally distribute the deliverables for its own acquisition activity, shareable with its affiliates, financing sources, co-investors, and advisers under confidentiality, and transferable to a successor, but not resellable and not usable to build a competing dataset. MarketScape complies with applicable outreach law including CAN-SPAM, the TCPA and state analogues, do-not-call rules, and CASL. MarketScape does not guarantee response rates, qualified candidate counts, letters of intent, closed transactions, or price or terms available from any owner.</p>
+        <p>Neither party is liable for indirect or consequential damages or lost transactions, and each party&rsquo;s aggregate liability is capped at the greater of fees paid in the preceding twelve months or $36,000, with a super-cap of two times fees or $100,000 for confidentiality, privacy, outreach compliance, and IP claims, and no cap for fraud, willful misconduct, or unpaid fees. Disputes go to good-faith negotiation, then mediation, then the state or federal courts in New Castle County, Delaware, under Delaware law, with trial by jury waived by both parties; either party may go straight to court for injunctive relief protecting confidential information or for unpaid undisputed fees.</p>
+        <p>MarketScape is an independent contractor and no partnership, agency, or fiduciary relationship is created. Completing this payment constitutes Client&rsquo;s acceptance of these terms and confirms that the person completing it is authorized to bind Client. These terms, together with any signed change order, are the entire agreement and supersede all prior proposals, quotes, and website content; statements on marketscape.co are marketing and are not warranties.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <a class="wordmark" href="index.html">Marketscape<span class="dot">.</span></a>
+        <p>Off-market M&amp;A intelligence. We find the companies that aren&rsquo;t for sale &mdash; before anyone else is looking.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Pages</h4>
+        <a href="index.html"><span class="b">[</span>Home<span class="b">]</span></a>
+        <a href="about.html"><span class="b">[</span>About<span class="b">]</span></a>
+        <a href="index.html#pricing"><span class="b">[</span>Pricing<span class="b">]</span></a>
+        <a href="case-studies.html"><span class="b">[</span>Case Studies<span class="b">]</span></a>
+        <a href="careers.html"><span class="b">[</span>Careers<span class="b">]</span></a>
+      </div>
+      <div class="foot-col">
+        <h4>Support</h4>
+        <a href="contact.html"><span class="b">[</span>Contact<span class="b">]</span></a>
+        <a href="privacy-policy.html"><span class="b">[</span>Privacy Policy<span class="b">]</span></a>
+        <a href="terms-of-service.html"><span class="b">[</span>Terms of Service<span class="b">]</span></a>
+        <a href="acceptable-use.html"><span class="b">[</span>Acceptable Use<span class="b">]</span></a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; Marketscape. All Rights Reserved.</span>
+      <span>MarketScape LLC &middot; Delaware</span>
+    </div>
+  </footer>
+
+</body>
+</html>
