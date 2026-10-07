@@ -68,6 +68,8 @@
   }
   .nav-cta:hover{background:var(--ink);color:var(--bg)!important;border-color:var(--ink)}
   @media(max-width:719px){ .nav-links a:not(.nav-cta){display:none} .nav-inner{padding:14px 20px} }
+  /* BDV-4310: Log in stays visible next to Request access on phones */
+  @media(max-width:719px){ .nav-links a.nav-login{display:inline} .nav-links{gap:18px} .nav-links a{white-space:nowrap} }
 
   /* ---------- header block ---------- */
   header.doc{
@@ -159,6 +161,7 @@
         <a href="index.html#the-solution">How it works</a>
         <a href="index.html#the-edge">The edge</a>
         <a href="index.html#pricing">Engagements</a>
+        <a class="nav-login" data-ms-login href="https://app.marketscape.co/?skin=marketscape">Log in</a>
         <a class="nav-cta" href="index.html#request-access">Request access</a>
       </div>
     </div>
@@ -286,5 +289,5 @@
     </div>
   </footer>
 
-</body>
+<script src="/scripts/login-link.js" defer></script></body>
 </html>
