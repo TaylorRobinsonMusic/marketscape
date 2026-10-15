@@ -1106,7 +1106,7 @@ e(() => {
                                               a(N, {
                                                 className: `framer-tebyuj`,
                                                 inputName: `First Name`,
-                                                placeholder: `Krutik`,
+                                                placeholder: `Your name`,
                                                 required: !0,
                                                 type: `text`,
                                               }),
@@ -1168,7 +1168,7 @@ e(() => {
                                           a(N, {
                                             className: `framer-xc38zy`,
                                             inputName: `Email`,
-                                            placeholder: `krutik@framer.com`,
+                                            placeholder: `you@company.com`,
                                             required: !0,
                                             type: `email`,
                                           }),
@@ -1351,7 +1351,7 @@ e(() => {
                                     nodeId: `m3EINO3Nu`,
                                     scopeId: `jL2GUUASB`,
                                     children: a(J, {
-                                      EW5SdV5XM: `mailto:krutikmaru18@gmail.com`,
+                                      EW5SdV5XM: `mailto:connor@marketscape.co`,
                                       GS4n_oaZ6: `Email`,
                                       height: `100%`,
                                       id: `m3EINO3Nu`,
@@ -1499,7 +1499,7 @@ e(() => {
                                     rendersWithMotion: !0,
                                     scopeId: `jL2GUUASB`,
                                     children: a(z, {
-                                      AHhpNBfRr: `mailto:krutikmaru18@gmail.com`,
+                                      AHhpNBfRr: `mailto:connor@marketscape.co`,
                                       height: `100%`,
                                       id: `m0VF_8R5c`,
                                       KPDdVnbJ9: `support@stackgrid.framer.website`,
@@ -1552,7 +1552,7 @@ e(() => {
                                   nodeId: `bcKthaYWg`,
                                   scopeId: `jL2GUUASB`,
                                   children: a(z, {
-                                    AHhpNBfRr: `mailto:krutikmaru18@gmail.com`,
+                                    AHhpNBfRr: `mailto:connor@marketscape.co`,
                                     height: `100%`,
                                     id: `bcKthaYWg`,
                                     KPDdVnbJ9: `support@stackgrid.framer.website`,

@@ -6079,7 +6079,7 @@ e(() => {
                                   nodeId: `zAuPnEL19`,
                                   scopeId: `augiA20Il`,
                                   children: c(Ve, {
-                                    AHhpNBfRr: `mailto:krutikmaru18@gmail.com`,
+                                    AHhpNBfRr: `mailto:connor@marketscape.co`,
                                     height: `100%`,
                                     id: `zAuPnEL19`,
                                     KPDdVnbJ9: `support@stackgrid.framer.website`,
