@@ -833,7 +833,7 @@ var it,
                                   inputName: `Email`,
                                   layoutDependency: z,
                                   layoutId: `lBsqICdu2`,
-                                  placeholder: `krutik@framer.com`,
+                                  placeholder: `you@company.com`,
                                   required: !0,
                                   style: {
                                     "--corner-shape-fallback": 0.796,

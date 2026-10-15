@@ -3013,7 +3013,7 @@ e(() => {
                                             RH4S6daPn: `Stefan Holm`,
                                             style: { width: `100%` },
                                             uN4YoSUOg: `CEO & Co-Founder`,
-                                            UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                            UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                             variant: Z(`yhakTAwEk`),
                                             WGe5gFbtF: {
                                               borderColor: `var(--token-7e7d9213-6afe-4309-afa8-7dccf478cb0d, rgb(222, 222, 222))`,
@@ -3095,7 +3095,7 @@ e(() => {
                                             RH4S6daPn: `Ron Bilevich`,
                                             style: { width: `100%` },
                                             uN4YoSUOg: `Lead Systems Architect`,
-                                            UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                            UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                             variant: Z(`yhakTAwEk`),
                                             WGe5gFbtF: {
                                               borderBottomWidth: 1,
@@ -3180,7 +3180,7 @@ e(() => {
                                             RH4S6daPn: `Marek Novak`,
                                             style: { width: `100%` },
                                             uN4YoSUOg: `Principal Data & AI Infrastructure Engineer`,
-                                            UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                            UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                             variant: Z(`yhakTAwEk`),
                                             WGe5gFbtF: {
                                               borderBottomWidth: 1,
@@ -3265,7 +3265,7 @@ e(() => {
                                             RH4S6daPn: `Lukas Weber`,
                                             style: { width: `100%` },
                                             uN4YoSUOg: `Senior Full-Stack Interaction Developer`,
-                                            UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                            UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                             variant: Z(`yhakTAwEk`),
                                             WGe5gFbtF: {
                                               borderBottomWidth: 1,
@@ -3347,7 +3347,7 @@ e(() => {
                                         RH4S6daPn: `Anders Jensen`,
                                         style: { width: `100%` },
                                         uN4YoSUOg: `Cloud Infrastructure Specialist`,
-                                        UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                        UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                         variant: Z(`yhakTAwEk`),
                                         WGe5gFbtF: {
                                           borderColor: `var(--token-7e7d9213-6afe-4309-afa8-7dccf478cb0d, rgb(222, 222, 222))`,
@@ -3418,7 +3418,7 @@ e(() => {
                                         RH4S6daPn: `Mateo Silva`,
                                         style: { width: `100%` },
                                         uN4YoSUOg: `Frontend Interaction Engineer`,
-                                        UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                        UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                         variant: Z(`yhakTAwEk`),
                                         WGe5gFbtF: {
                                           borderBottomWidth: 1,
@@ -3492,7 +3492,7 @@ e(() => {
                                         RH4S6daPn: `Julian Krause`,
                                         style: { width: `100%` },
                                         uN4YoSUOg: `Technical Project Manager`,
-                                        UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                        UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                         variant: Z(`yhakTAwEk`),
                                         WGe5gFbtF: {
                                           borderBottomWidth: 1,
@@ -3566,7 +3566,7 @@ e(() => {
                                         RH4S6daPn: `Thomas Wright`,
                                         style: { width: `100%` },
                                         uN4YoSUOg: `Backend Systems Developer`,
-                                        UWKjGQOoK: `https://www.linkedin.com/in/krutik-maru/`,
+                                        UWKjGQOoK: `https://www.linkedin.com/in/connortomkies`,
                                         variant: Z(`yhakTAwEk`),
                                         WGe5gFbtF: {
                                           borderBottomWidth: 1,
