@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website Terms of Use — Marketscape</title>
+<meta name="description" content="Website Terms of Use for marketscape.co, operated by Marketscape Partners, LLC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fdfdfd;
+    --ink:#0a0a0a;
+    --ink-2:#545454;
+    --ink-3:#8a8a8a;
+    --line:#e6e6e6;
+    --line-2:#d8d8d8;
+    --card:#f6f6f6;
+    --serif:"Instrument Serif",Georgia,serif;
+    --sans:"Inter","Google Sans Flex Variable",-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:"Fragment Mono",ui-monospace,"SF Mono",Menlo,monospace;
+    --maxw:760px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:16px;
+    line-height:1.7;
+    letter-spacing:.1px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+
+  /* ---------- top bar ---------- */
+  .nav{
+    position:sticky;top:0;z-index:20;
+    background:rgba(253,253,253,.86);
+    backdrop-filter:saturate(140%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:1120px;margin:0 auto;
+    padding:16px 28px;
+    display:flex;align-items:center;justify-content:space-between;gap:24px;
+  }
+  .wordmark{
+    font-family:var(--sans);font-weight:600;font-size:18px;letter-spacing:-.2px;
+    text-decoration:none;color:var(--ink);
+  }
+  .wordmark .dot{color:var(--ink-3)}
+  .nav-links{display:flex;align-items:center;gap:26px}
+  .nav-links a{
+    font-size:13px;color:var(--ink-2);text-decoration:none;letter-spacing:.2px;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{
+    font-family:var(--mono);font-size:12px;letter-spacing:.3px;
+    border:1px solid var(--line-2);border-radius:2px;
+    padding:8px 14px;color:var(--ink)!important;
+  }
+  .nav-cta:hover{background:var(--ink);color:var(--bg)!important;border-color:var(--ink)}
+  @media(max-width:719px){ .nav-links a:not(.nav-cta){display:none} .nav-inner{padding:14px 20px} }
+  @media(max-width:719px){ .nav-links a.nav-login{display:inline} .nav-links{gap:18px} .nav-links a{white-space:nowrap} }
+
+  /* ---------- header block ---------- */
+  header.doc{
+    max-width:var(--maxw);margin:0 auto;
+    padding:76px 28px 40px;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:var(--mono);font-size:12px;letter-spacing:.6px;
+    color:var(--ink-3);text-transform:uppercase;margin:0 0 22px;
+  }
+  header.doc h1{
+    font-family:var(--serif);font-weight:400;
+    font-size:clamp(38px,6vw,58px);line-height:1.04;letter-spacing:-.5px;
+    margin:0 0 18px;
+  }
+  header.doc .lede{
+    font-size:16px;color:var(--ink-2);max-width:62ch;margin:0 0 14px;
+  }
+  header.doc .lede:last-of-type{margin-bottom:0}
+  .updated{
+    font-family:var(--mono);font-size:12px;letter-spacing:.3px;
+    color:var(--ink-3);margin:24px 0 0;
+  }
+
+  /* ---------- body ---------- */
+  main{max-width:var(--maxw);margin:0 auto;padding:8px 28px 40px}
+  section.clause{padding:38px 0;border-bottom:1px solid var(--line)}
+  section.clause:last-of-type{border-bottom:none}
+  .clause-head{display:flex;gap:16px;align-items:baseline;margin:0 0 16px}
+  .clause-num{
+    font-family:var(--mono);font-size:13px;color:var(--ink-3);
+    letter-spacing:.5px;flex:none;padding-top:3px;
+  }
+  .clause h2{
+    font-family:var(--sans);font-weight:600;
+    font-size:15px;letter-spacing:.6px;text-transform:uppercase;
+    margin:0;line-height:1.35;
+  }
+  .clause p{margin:0 0 15px;color:#1c1c1c}
+  .clause p:last-child{margin-bottom:0}
+  .clause ul,.clause ol{margin:0 0 15px;padding-left:22px;color:#1c1c1c}
+  .clause li{margin:0 0 9px}
+  .clause li:last-child{margin-bottom:0}
+  .clause strong{font-weight:600;color:var(--ink)}
+  .clause a{color:var(--ink);text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--line-2)}
+  .clause a:hover{text-decoration-color:var(--ink)}
+  .addr{font-style:normal;color:#1c1c1c;line-height:1.6;margin:0}
+  .clause .body{padding-left:0}
+  @media(min-width:720px){ .clause .body{padding-left:47px} }
+
+  /* ---------- footer ---------- */
+  footer.site{
+    border-top:1px solid var(--line);
+    background:var(--bg);
+    margin-top:20px;
+  }
+  .foot-inner{
+    max-width:1120px;margin:0 auto;padding:56px 28px 40px;
+    display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;
+  }
+  .foot-brand .wordmark{font-size:20px}
+  .foot-brand p{color:var(--ink-2);font-size:13.5px;max-width:34ch;margin:14px 0 0}
+  .foot-col h4{
+    font-family:var(--mono);font-size:11px;letter-spacing:.8px;text-transform:uppercase;
+    color:var(--ink-3);margin:0 0 16px;font-weight:400;
+  }
+  .foot-col a{
+    display:block;text-decoration:none;color:var(--ink-2);
+    font-size:13.5px;margin-bottom:10px;transition:color .15s ease;
+  }
+  .foot-col a:hover{color:var(--ink)}
+  .foot-col a .b{color:var(--ink-3)}
+  .foot-bottom{
+    max-width:1120px;margin:0 auto;padding:22px 28px 44px;
+    border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    font-size:12px;color:var(--ink-3);font-family:var(--mono);letter-spacing:.3px;
+  }
+  @media(max-width:719px){
+    .foot-inner{grid-template-columns:1fr 1fr;gap:28px}
+    .foot-brand{grid-column:1 / -1}
+    header.doc{padding-top:52px}
+  }
+</style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="wordmark" href="index.html">Marketscape<span class="dot">.</span></a>
+      <div class="nav-links">
+        <a href="index.html#the-solution">How it works</a>
+        <a href="index.html#the-edge">The edge</a>
+        <a href="index.html#pricing">Engagements</a>
+        <a class="nav-login" data-ms-login href="https://app.marketscape.co/?skin=marketscape">Log in</a>
+        <a class="nav-cta" href="index.html#request-access">Request access</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="doc">
+    <p class="eyebrow">Legal</p>
+    <h1>Website Terms of Use</h1>
+    <p class="lede">These Website Terms of Use ("Terms") govern your use of marketscape.co (the "Site"), which is operated by Marketscape Partners, LLC, a Delaware limited liability company ("Marketscape," "we," "our," or "us"). By using the Site, you agree to these Terms. If you do not agree, please do not use the Site.</p>
+    <p class="lede">These Terms cover the public website only. If you are a Marketscape client, your engagement is governed by your separate client agreement, and that agreement controls if it conflicts with these Terms.</p>
+    <p class="updated">Last updated: October 17, 2026</p>
+  </header>
+
+  <main>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 01 ]</span><h2>Who we are</h2></div>
+      <div class="body">
+        <p>Marketscape is a private-equity research firm. We research privately held companies and contact their owners, as a research firm, on behalf of buyers who are looking to acquire businesses.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 02 ]</span><h2>Using the Site</h2></div>
+      <div class="body">
+        <p>You may use the Site for lawful purposes and in line with these Terms and our Acceptable Use Policy. You must not misuse the Site, including by interfering with its operation, trying to gain unauthorised access to it, or copying or scraping its content by automated means.</p>
+        <p>If you submit information through the Site, you confirm that it is accurate and that you are entitled to share it. Our Privacy Policy explains how we handle information you submit.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 03 ]</span><h2>No offer and no advice</h2></div>
+      <div class="body">
+        <p>The Site is for general information about Marketscape and our services. Nothing on the Site is:</p>
+        <ul>
+          <li>an offer to buy or sell any business, security or asset, or a solicitation of such an offer;</li>
+          <li>investment, financial, legal, tax, accounting or valuation advice; or</li>
+          <li>a recommendation about any transaction.</li>
+        </ul>
+        <p>Marketscape is a research firm. We are not a broker-dealer, investment adviser or business broker, and we do not negotiate or arrange the terms of any transaction. Descriptions of our services, examples and sample materials on the Site are illustrative only. You should get your own professional advice before making any decision.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 04 ]</span><h2>Intellectual property</h2></div>
+      <div class="body">
+        <p>The Site and its content, including text, graphics, logos, design and software, are owned by Marketscape or its licensors and are protected by intellectual property laws. You may view and print pages from the Site for your own information. You may not copy, reproduce, distribute, modify or create derivative works from the Site's content for any other purpose without our written permission. "Marketscape" and our logos are our trademarks.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 05 ]</span><h2>Third-party links and services</h2></div>
+      <div class="body">
+        <p>The Site may link to, or embed services from, third parties, such as a booking calendar. We do not control and are not responsible for third-party websites or services, and your use of them is subject to their own terms and policies.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 06 ]</span><h2>Disclaimers</h2></div>
+      <div class="body">
+        <p>The Site is provided "as is" and "as available." To the fullest extent permitted by law, we disclaim all warranties, express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy and non-infringement. We do not warrant that the Site will be uninterrupted, error-free or free of harmful components, or that information on the Site is complete or current.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 07 ]</span><h2>Limitation of liability</h2></div>
+      <div class="body">
+        <p>To the fullest extent permitted by law, Marketscape and its members, managers, employees and agents will not be liable for any indirect, incidental, special, consequential or punitive damages, or for any loss of profits, revenue, data or business opportunity, arising out of or relating to your use of, or inability to use, the Site. Our total liability for any claim arising out of or relating to the Site will not exceed one hundred US dollars (US $100). Some jurisdictions do not allow certain limitations, so some of these limitations may not apply to you.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 08 ]</span><h2>Indemnity</h2></div>
+      <div class="body">
+        <p>You agree to indemnify and hold harmless Marketscape from any claims, losses and expenses (including reasonable attorneys' fees) arising out of your misuse of the Site or your breach of these Terms.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 09 ]</span><h2>Governing law and venue</h2></div>
+      <div class="body">
+        <p>These Terms are governed by the laws of the State of Delaware, without regard to its conflict-of-laws rules. Any dispute arising out of or relating to these Terms or the Site will be brought exclusively in the state or federal courts located in Dallas County, Texas, and you consent to the jurisdiction of those courts.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 10 ]</span><h2>Changes</h2></div>
+      <div class="body">
+        <p>We may update these Terms from time to time. When we do, we will change the "Last updated" date at the top of this page. Your continued use of the Site after changes are posted means you accept the updated Terms.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 11 ]</span><h2>General</h2></div>
+      <div class="body">
+        <p>If any part of these Terms is found unenforceable, the rest will remain in effect. Our failure to enforce any provision is not a waiver. These Terms, together with our Privacy Policy and Acceptable Use Policy, are the entire agreement between you and us about the Site.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="clause-head"><span class="clause-num">[ 12 ]</span><h2>Contact</h2></div>
+      <div class="body">
+        <p class="addr">Marketscape Partners, LLC<br>3008 Taylor St<br>Dallas, TX 75226<br><a href="mailto:connor@marketscape.co">connor@marketscape.co</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <a class="wordmark" href="index.html">Marketscape<span class="dot">.</span></a>
+        <p>Off-market M&amp;A intelligence. We find the companies that aren&rsquo;t for sale &mdash; before anyone else is looking.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Pages</h4>
+        <a href="index.html"><span class="b">[</span>Home<span class="b">]</span></a>
+        <a href="about.html"><span class="b">[</span>About<span class="b">]</span></a>
+        <a href="index.html#pricing"><span class="b">[</span>Pricing<span class="b">]</span></a>
+        <a href="case-studies.html"><span class="b">[</span>Case Studies<span class="b">]</span></a>
+        <a href="careers.html"><span class="b">[</span>Careers<span class="b">]</span></a>
+      </div>
+      <div class="foot-col">
+        <h4>Support</h4>
+        <a href="contact.html"><span class="b">[</span>Contact<span class="b">]</span></a>
+        <a href="privacy-policy.html"><span class="b">[</span>Privacy Policy<span class="b">]</span></a>
+        <a href="website-terms.html"><span class="b">[</span>Terms of Use<span class="b">]</span></a>
+        <a href="acceptable-use.html"><span class="b">[</span>Acceptable Use<span class="b">]</span></a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; Marketscape. All Rights Reserved.</span>
+      <span>Marketscape Partners, LLC &middot; Delaware</span>
+    </div>
+  </footer>
+
+<script src="/scripts/login-link.js" defer></script></body>
+</html>
