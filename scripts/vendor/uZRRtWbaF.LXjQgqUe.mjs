@@ -82,7 +82,7 @@ var M,
         VJBFLDEGc:
           e ??
           s.VJBFLDEGc ??
-          `This is just some description, I am not sure what to put here really.`,
+          ``,
       })),
       (B = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
       (V = S(
@@ -217,7 +217,7 @@ var M,
                                   "--framer-text-alignment": `left`,
                                   "--framer-text-color": `var(--extracted-r6o4lv, var(--token-66b6d7ff-ba33-4d69-8906-b2633b6d4a86, rgb(84, 84, 84)))`,
                                 },
-                                children: `This is just some description, I am not sure what to put here really.`,
+                                children: ``,
                               }),
                             }),
                             className: `framer-mgmxmm`,
@@ -275,7 +275,7 @@ var M,
         },
         onmQrslU2vjChange: { changes: `mQrslU2vj`, type: C.ChangeHandler },
         VJBFLDEGc: {
-          defaultValue: `This is just some description, I am not sure what to put here really.`,
+          defaultValue: ``,
           displayTextArea: !0,
           title: `Description`,
           type: C.String,
