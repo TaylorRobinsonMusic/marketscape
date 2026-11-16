@@ -3792,7 +3792,7 @@ e(() => {
                                         "data-styles-preset": `GMp6ZDbq7`,
                                         dir: `auto`,
                                         style: { "--framer-text-alignment": `center` },
-                                        children: `280+`,
+                                        children: `300+`,
                                       }),
                                     }),
                                     className: `framer-h3f5gx`,
