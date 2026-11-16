@@ -1,8 +1,8 @@
 /*
  * Proof band for the marketscape.co home page (BDV-5943).
  *
- * Adds one compact band directly under the hero (above the stats strip) holding exactly two
- * statements. Nothing else on the page is touched.
+ * Adds one compact band directly under the hero (above the stats strip) holding one
+ * statement. Nothing else on the page is touched.
  *
  * Why a script and not text typed into index.html: this site is a Framer export. Framer's runtime
  * hydrates the page from its own bundles after load, and any element in the exported HTML that the
@@ -15,8 +15,7 @@
 (function () {
   'use strict';
 
-  var LEAD = 'A typical campaign reaches 20,000 owners and executives. At our measured response rate, that surfaces about 24 qualified owners open to selling.';
-  var SECOND = '100% client retention to date.';
+  var LEAD = 'A typical campaign reaches 20,000 owners and executives. At our measured response rate, about 160 reply with interest.';
   var MARK = 'data-ms-proof';
   var STYLE_ID = 'ms-proof-style';
   var FALLBACK_MS = 5000; // if Framer never takes over (bundle failed), show the band anyway
@@ -32,7 +31,6 @@
     'font-family:"Google Sans Flex Variable","Google Sans Flex Variable Placeholder",sans-serif;' +
     'text-wrap:balance}' +
     '.ms-proof .ms-proof-lead{max-width:820px;font-size:20px;line-height:1.6em;letter-spacing:.01em;color:#000}' +
-    '.ms-proof .ms-proof-second{max-width:680px;font-size:14px;line-height:1.6em;letter-spacing:.01em;color:#545454}' +
     '@media (min-width:810px) and (max-width:1199.98px){.ms-proof{max-width:780px}}' +
     '@media (max-width:809.98px){.ms-proof{max-width:600px}}';
 
@@ -64,11 +62,7 @@
     var p1 = document.createElement('p');
     p1.className = 'ms-proof-lead';
     p1.textContent = LEAD;
-    var p2 = document.createElement('p');
-    p2.className = 'ms-proof-second';
-    p2.textContent = SECOND;
     el.appendChild(p1);
-    el.appendChild(p2);
     return el;
   }
 
