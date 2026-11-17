@@ -2475,7 +2475,7 @@ var xn,
                                 f(I, {
                                   links: [
                                     {
-                                      href: { webPageId: `P_hYK51BA` },
+                                      href: `https://marketscape.co/website-terms`,
                                       implicitPathVariables: void 0,
                                     },
                                   ],
@@ -4640,15 +4640,15 @@ var ri,
                                   f(I, {
                                     links: [
                                       {
-                                        href: { webPageId: `P_hYK51BA` },
+                                        href: `https://marketscape.co/website-terms`,
                                         implicitPathVariables: void 0,
                                       },
                                       {
-                                        href: { webPageId: `P_hYK51BA` },
+                                        href: `https://marketscape.co/website-terms`,
                                         implicitPathVariables: void 0,
                                       },
                                       {
-                                        href: { webPageId: `P_hYK51BA` },
+                                        href: `https://marketscape.co/website-terms`,
                                         implicitPathVariables: void 0,
                                       },
                                     ],
@@ -4728,7 +4728,7 @@ var ri,
                                             height: `100%`,
                                             id: `rQQQjArbD`,
                                             layoutId: `rQQQjArbD`,
-                                            RoGNZ4BdA: `Terms & Conditions`,
+                                            RoGNZ4BdA: `Terms of Use`,
                                             variant: $(`V0BQS2WGL`),
                                             width: `100%`,
                                             YzPGzetae: e[0],
